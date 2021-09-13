@@ -9,7 +9,7 @@ module.exports = {
     AWS_S3_REGION: process.env.AWS_S3_REGION || 'region',
     AWS_S3_SECRET_KEY: process.env.AWS_S3_SECRET_KEY || 'secret',
     CREATE: 201,
-    MONGO_DB_URL: process.env.MONGO_DB_URL || 'mongodb+srv://inoxoft:inoxoft1@cluster0.t5vi5.mongodb.net/inoxoft?retryWrites=true&w=majority',
+    MONGO_DB_URL: process.env.MONGO_DB_URL || 'mongodb+srv://inoxoft:<password>@cluster0.t5vi5.mongodb.net/<name>?retryWrites=true&w=majority',
     DB_MONGO: process.env.DB_MONGO || 'mongodb://localhost:27017/inoxoft',
     EMAIL: process.env.EMAIL || 'test@gmail.com',
     EMAIL_PASSWORD: process.env.EMAIL_PASSWORD || '12345',
